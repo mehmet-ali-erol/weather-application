@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+  font-size: 80px;
+  color: #fff;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #fff !important;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff !important;
+}
+
+.fadeout{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(36, 35, 35, 0.4);
+}
+
+.app:before {
+  content: '';
+  background: url('./assets/background3.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.textbox{
+  position: relative;
+  top: 2%;
+  text-align: center;
+}
+
+.ant-input.ant-input-lg{
+  background-color: transparent !important;
+  border-radius: 30px !important;
+  color: white !important;
+}
+
+.ant-input-group-addon{
+  visibility: hidden !important;
+  background: yellowgreen !important;
+}
+
+.selectCity{
+  position: relative;
+  top: 5%;
+  text-align: center;
+}
+
+.ant-select-selector{
+  background-color: transparent !important;
+  border-radius: 30px !important;
+  color: white;
+}
+
+.ant-select-arrow{
+  color: white !important;
+}
+
+.container {
+  max-width: 900px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.top{
+  width: 450px;
+  height: 475px;
+  padding: 0.5rem;
+  border-radius: 30px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.bottom {
+  width: 325px;
+  height: 475px;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: rgba(255,255,255, 0.2);
+  
+}
